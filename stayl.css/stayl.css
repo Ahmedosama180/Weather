@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+#section{
+  background-image:url(../imge/noaa-kcvlb727mn8-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  height:100vh;
+}
+
+#count{
+  background-color: rgba(255, 255, 255,0.3);
+  transition:all 2s;
+
+}
+#count:hover{
+  background-color:white;
+  transform: scale(0.9);
+}
+#timer{
+  position: absolute;
+  left:0rem;
+  top:4rem;
+  transition:all 2s;
+}
+#child_timer{
+  background-color: rgba(255, 255, 255,0.3);
+  transition:all 3s;
+}
+
+#child_timer:hover{
+  background-color:white;
+  transform: scale(0.9);
+}
